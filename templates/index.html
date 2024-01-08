@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>home</title>
+</head>
+<body style="background-color: aqua;">
+    <center style="margin-top: 8%;">
+        <div style="height: 200px; width: 300px; background-color: white; border-radius: 10%; padding: 10px; ">
+            <div style="margin-top: 20px; margin-bottom: 20px;">
+                <center><h2>Image Downloader</h2></center>
+            </div>
+            <center>
+                <form action="{{url_for('index')}}" method="post">
+                <input style="margin-top: 10px; padding-left: 15px;padding-right:15px;padding-top: 10px;padding-bottom:10px; border-radius: 5%;" type="text" name="query" placeholder="Search for pictures"/><br>
+                <input style="margin-top: 10px; padding-left: 70px; padding-right:70px;padding-top: 10px;padding-bottom:10px; background-color: blueviolet; color: white; border-radius: 5%;" type="submit" value="SEARCH" />
+            </form>
+            </center>
+        </div>
+    
+    </center>
+</body>
